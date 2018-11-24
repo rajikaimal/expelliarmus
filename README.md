@@ -40,6 +40,12 @@ expelliarmus.on("close", () => {
 });
 ```
 
+## Run unit tests
+
+```
+$ npm run test
+```
+
 # License
 
 MIT © [rajikaimal](https://github.com/rajikaimal)

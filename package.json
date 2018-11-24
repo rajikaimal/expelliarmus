@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Circuit breaker implementation in Node.js",
   "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
   "repository": "https://github.com/rajikaimal/expelliarmus",
   "author": "rajikaimal <inbox.rajika@gmail.com>",
   "license": "MIT",
