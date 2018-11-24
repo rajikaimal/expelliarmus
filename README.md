@@ -2,6 +2,12 @@
 
 🎃 Circuit breaker implementation in Node.js
 
+## Install
+
+```
+$ npm install expelliarmus
+```
+
 ## Usage
 
 ```js

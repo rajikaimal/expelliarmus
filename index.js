@@ -1,4 +1,4 @@
-const expelliarmus = require("./lib/breaker");
+const expelliarmus = require("./lib/expelliarmus");
 
 function createBreaker(loadResource, options) {
   const exp = new expelliarmus(
@@ -9,8 +9,4 @@ function createBreaker(loadResource, options) {
   return exp;
 }
 
-const circuitBreakerFactory = function() {
-    return createBreaker;
-}
-
-module.exports = circuitBreakerFactory;
+module.exports = { createBreaker };
